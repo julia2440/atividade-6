@@ -37,7 +37,7 @@ while True:
         maior_idade = max(idades)
         menor_idade = min(idades)
 
-        mulheres_alto_salario = sum(1 for _, s, _ in pessoas if s == 'F' and _>= 5000)
+        mulheres_alto_salario = sum(1 for _, s, _ in pessoas if s == 'F' and _ >= 5000)
 
         print(f"Média de salário: R$ {media_salario:.2f}")
         print(f"Maior idade: {maior_idade} anos")
